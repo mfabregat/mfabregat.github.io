@@ -183,11 +183,11 @@ input, select, textarea {
 		top: -0.5em;
 	}
 
-	/*hr {
+	hr {
 		border: 0;
-		border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+		border-bottom: solid 1px rgba(255, 255, 255, 0.5);
 		margin: 3em 0;
-	}*/
+	}
 
 		hr.major {
 			margin: 4em 0;
