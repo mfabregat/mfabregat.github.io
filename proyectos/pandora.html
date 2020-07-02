@@ -45,7 +45,7 @@
 							</li>
 							<li><a href="../cv.html">CV</a></li>
 							<li><a href="../index.html#contacto" class="scrolly">Contacto</a></li>
-							<li><a href="../en/projects/pandora.html">English</a></li>
+							<li><a href="../en/pandora.html">English</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -76,7 +76,19 @@
 								<a href="../files/cinematica_inversa.pdf" class="image fit" target="_blank" download><img src="../images/cinematica_inversa.jpg" alt="" /></a>
 								<p>El primer paso será calcular la posición angular de la base. Para esta primera articulación, su ángulo será independiente de las otras articulaciones, ya que solo depende de las coordenadas x e y del manipulador. Aunque cabe destacar que para los sistemas de coordenadas elegidos, es necesario hacer una previa transformación de las coordenadas de posición del efector final: inicialmente las coordenadas están expresadas respecto al sistema 0, y mediante los parámetros DH se expresarán respecto al sistema de referencia 1.</p>
 								<p>Para las otras articulaciones ocurre lo mismo, se deben expresar las coordenadas respecto al sistema de referencia 2 usando la matriz de transformación calculable a partir de los parámetros DH. También, se debe aplicar una corrección a las coordenadas de posición del manipulador, ya que la articulación 4 solamente es necesaria para corregir el componente z del efector final, con esto obtenemos una nueva Pm. Lo siguiente será pura geometría, se obtendrán las posiciones angulares de las articulaciones relacionando ángulos y distancias.</p>
-								<h3>Demostración</h3>
+								<h3>Aplicaciones</h3>
+								<p>Para poner a prueba el robot se ha programado una sencilla aplicación para mover un reloj, utilizando un Arduino Mega 2560 como controlador.</p>
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="../images/1.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="../images/2.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="../images/3.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="../images/4.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="../images/5.jpg" alt="" /></span></div>
+										<div class="col-4 col-6-xsmall"><span class="image fit"><img src="../images/6.jpg" alt="" /></span></div>
+									</div>
+								</div>
+								<p>A modo de futuras mejoras, se pueden diseñar diferentes tipos de efectores finales, además de la pinza, para diferentes tipos de agarre. También, se podría implementar un sistema de visión artificial para habilitar potenciales aplicaciones nuevas, como sistemas de clasificación y ordenación.</p>
 								
 								<!--<div class="videoWrapper">
 								<iframe src="https://drive.google.com/file/d/1H0AStmdeJSy3xvFJxKndD1tLS2eSatEI/preview" width="640" height="480" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
