@@ -3070,7 +3070,7 @@ input, select, textarea {
 		}
 
 		.spotlight:before {
-			background-image: url("images/electronica.jpg");
+			background-image: url("images/portada.jpg");
 			content: '';
 			display: block;
 			height: 100%;
@@ -3484,10 +3484,10 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.7), rgba(23, 24, 32, 0.7)), url("images/electronica.jpg");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.7), rgba(23, 24, 32, 0.7)), url("images/electronica.jpg");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.7), rgba(23, 24, 32, 0.7)), url("images/electronica.jpg");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.7), rgba(23, 24, 32, 0.7)), url("images/electronica.jpg");;
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.7), rgba(23, 24, 32, 0.7)), url("images/portada.jpg");;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.7), rgba(23, 24, 32, 0.7)), url("images/portada.jpg");;	
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.7), rgba(23, 24, 32, 0.7)), url("images/portada.jpg");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.7), rgba(23, 24, 32, 0.7)), url("images/portada.jpg");;
 			content: '';
 			display: block;
 			height: 100%;
